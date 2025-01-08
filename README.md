@@ -30,4 +30,4 @@ This is a To-Do list application developed with multiple platforms: a console ap
 4. Use `dotnet run` to start the server locally.
 
 ## Deployment
-The web platform and database are deployed on Somee for demonstration purposes. You can access the live application [here](http://your-web-app-url.somee.com).
+The web platform and database are deployed on Somee for demonstration purposes. You can access the live application [here](http://a400521198.somee.com).
