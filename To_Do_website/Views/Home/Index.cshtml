@@ -1,0 +1,24 @@
+﻿@model To_Do_ViewModels
+<div class="row justify-content-center">
+    <div class="col-xl-6 col-lg-8 col-md-8 col-sm-10">
+        <table  class="table table-sm table-light">
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col">Title</th>
+                    <th scope="col">Plan</th>
+                    <th scope="col">DeadLine</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in Model.TodoList)
+                {
+                    <tr>
+                        <th class="todos-column" scope="row">@t.TitleId</th>
+                        <td class="todos-column">@t.Plan</td>
+                        <td class="todos-column">@t.Date</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

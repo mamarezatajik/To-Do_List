@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\To_Do_lib\To_Do_lib.csproj" />
+    <ProjectReference Include="..\To_Do_ApiCli\src\To_Do_ApiCli.Test\To_Do_ApiCli.Test.csproj" />
+    <ProjectReference Include="..\To_Do_ApiCli\src\To_Do_ApiCli\To_Do_ApiCli.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

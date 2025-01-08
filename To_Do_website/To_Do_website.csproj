@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\To_Do_ApiCli\src\To_Do_ApiCli\To_Do_ApiCli.csproj" />
+    <ProjectReference Include="..\To_Do_ApiCli\src\To_Do_ApiCli.Test\To_Do_ApiCli.Test.csproj" />
+    <ProjectReference Include="..\To_Do_lib\To_Do_lib.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\To_Do_lib\To_Do_lib.csproj" />
+    <ProjectReference Include="..\To_Do_ApiCli\src\To_Do_ApiCli\To_Do_ApiCli.csproj" />
+    <ProjectReference Include="..\To_Do_ApiCli\src\To_Do_ApiCli.Test\To_Do_ApiCli.Test.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+@using To_Do_Project
+@model To_Do_ViewModels
+<form  asp-action="Adding" id="form-action" method="post" role="form">
+    <div asp-validation-summary="All"></div>
+    <div>
+
+        <br/>
+        <div class="col-xl-3 col-lg-8 col-md-8 col-sm-10" class="form-group">
+            <label asp-for="Todo.TitleId"  >Your Title: </label>
+            <input asp-for="Todo.TitleId" class="form-control" placeholder="Your activity">
+            <span asp-validation-for="Todo.TitleId"></span>
+        </div>
+        <br/>
+        <div class="col-xl-13 col-lg-8 col-md-8 col-sm-10" class="form-group">
+            <label asp-for="Todo.Plan">Your Plan: </label>
+            <input asp-for="Todo.Plan" class="form-control" placeholder="Planning">
+            <span asp-validation-for="Todo.Plan"></span>
+        </div>
+        <br/>
+        <div class="col-xl-3 col-lg-8 col-md-8 col-sm-10">
+            <label asp-for="Todo.Date"> Day of activity </label>
+            <input asp-for="Todo.Date" asp-format="{0:dd/MM/yyyy HH:mm}" class="form-control" />
+            <span asp-validation-for="Todo.Date"></span>
+        </div>
+        <br/>
+        
+        <button type="submit" id="form-button" class="btn btn-success" value="Add">Add activity</button>
+        <br/>
+</form>
+
+
+<form asp-action="Deleting" id="form-action" method="post" class="form-horizontal" role="form">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="row justify-content-left">
+        <div class="col-xl-3 col-lg-8 col-md-8 col-sm-10">
+                <label asp-for="Todo.TitleId">Title:</label>
+            <input asp-for="Todo.TitleId" class="form-control" placeholder="deleting title" />
+            <span asp-validation-for="Todo.TitleId"></span>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div style="text-align:left" >
+            <br/>
+            <input type="submit" id="form-button" class="btn btn-danger" value="Delete"  />
+        </div>
+    </div>
+</form>

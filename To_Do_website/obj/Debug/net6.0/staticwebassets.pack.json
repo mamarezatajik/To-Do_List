@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "e:\\semester-3\\AP-FinalProject\\To_Do_website\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\To_Do_website.bundle.scp.css",
+      "PackagePath": "staticwebassets\\To_Do_website.bundle.scp.css"
+    },
+    {
+      "Id": "e:\\semester-3\\AP-FinalProject\\To_Do_website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "e:\\semester-3\\AP-FinalProject\\To_Do_website\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "e:\\semester-3\\AP-FinalProject\\To_Do_website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.To_Do_website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.To_Do_website.props",
+      "PackagePath": "build\\To_Do_website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.To_Do_website.props",
+      "PackagePath": "buildMultiTargeting\\To_Do_website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.To_Do_website.props",
+      "PackagePath": "buildTransitive\\To_Do_website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
